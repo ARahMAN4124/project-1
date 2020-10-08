@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.nav-bg {
+}
+#bg {
+  width: 100%;
+  background: url(../images/body-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.left-menu-1 a {
+  font-size: 20px;
+  color: #a381b8;
+}
+.left-menu-1 {
+  background: #26182ecb;
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 1rem 3rem 0.3rem 3rem;
+  transition: all 0.3s ease;
+  border-left: 2px solid #170f1c00;
+  border-bottom: 1px solid #b8b8b898;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.left-menu-1:hover {
+  background: #513064cc;
+  border-bottom: 1px solid #513064cc;
+  border-left: 2px solid rgb(255, 208, 0);
+}
+.left-icon {
+  background: #1e2c3d;
+  font-size: 3rem;
+  color: #ffffffa8;
+  padding: 0.4rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.main-logo {
+}
+.nav-bg img {
+  width: 75px;
+  height: 105px;
+}
+.nav-menu li {
+  padding: 1rem 1rem;
+}
+.nav-menu li a {
+  font-size: 15px;
+}
+.nav-menu li:hover a {
+  color: #f69711;
+}
+.btn-bg {
+  background: #f69711;
+  padding: 0.2rem 0.9rem;
+  margin-top: 0.5rem;
+  font-family: "Lobster Two", cursive;
+  font-size: 20px;
+  color: #ffffffa8;
+  font-weight: bold;
+}
+.notification {
+  border: 1px solid #6e239c;
+  height: 30px;
+  margin-top: 1rem;
+  box-shadow: 0 0 5px 1px rgb(117, 46, 161);
+  align-items: center;
+}
+.news {
+  width: 40px;
+  height: 40px;
+  margin-top: 10rem;
+  margin-right: 15rem;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #f69711;
+  box-shadow: 0px 0px 15px #f69711;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.footer-hr {
+  text-align: center;
+  border-top: 2px solid #f69711;
+}
+#footer {
+  background: #170f1c;
+}
+
+@media (max-width: 1500px) {
+  .cards {
+    height: 320px;
+  }
+}
+@media (min-width: 1406px) {
+  .cards {
+    height: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .full-margin {
+    margin: 0 1rem;
+  }
+  .footer-end {
+    text-align: start;
+  }
+}
+@media (min-width: 1406px) {
+  .cards {
+    height: 270px;
+  }
+}

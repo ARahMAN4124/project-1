@@ -1,0 +1,80 @@
+.nav-bg {
+  background: #1c1527a6;
+  height: 75px;
+  margin-top: -1rem;
+}
+@media (max-width: 921px) {
+  .nav-bg {
+    background: none;
+    height: auto;
+    margin-top: 0;
+  }
+}
+
+<li class="left-menu">
+<a
+  href="#"
+  class="text-decoration-none"
+  style="font-size: 20px; color: #a381b8"
+>
+  UserCP<br />
+  <p style="font-size: 15px" class="mt-0 text-light">
+    visit link
+  </p>
+</a>
+</li>
+<li class="left-menu">
+<a
+  href="#"
+  class="text-decoration-none"
+  style="font-size: 20px; color: #a381b8"
+>
+  Terms of SerVice<br />
+  <p style="font-size: 15px" class="mt-0 text-light">
+    visit link
+  </p>
+</a>
+</li>
+<li class="left-menu">
+<a
+  href="#"
+  class="text-decoration-none"
+  style="font-size: 20px; color: #a381b8"
+>
+  Discord Channel<br />
+  <p style="font-size: 15px" class="mt-0 text-light">
+    visit link
+  </p>
+</a>
+</li>
+<li class="left-menu">
+<a
+  href="#"
+  class="text-decoration-none"
+  style="font-size: 20px; color: #a381b8"
+>
+  Staff List <br />
+  <p style="font-size: 15px" class="mt-0 text-light">
+    visit link
+  </p>
+</a>
+</li>
+<li class="py-2" style="background-color: black;">
+<a href="#"
+class="text-decoration-none"
+style="font-size: 20px; color: #ffffff"text-decoration-none"> Report Bug </a>
+</li>
+<li class="py-3">
+<a
+  href="#"
+  class="text-decoration-none"
+  style="font-size: 20px; color: #a381b8"
+>
+  Report a Player
+</a>
+</li>
+<li class="">
+<a href="#" class="text-decoration-none">
+  
+</a>
+</li>
